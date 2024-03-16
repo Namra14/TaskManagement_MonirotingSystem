@@ -1,0 +1,7 @@
+{
+    "require": {
+        "orhanerday/open-ai": "^4.8",
+        "rubix/ml": "^2.4",
+        "league/csv": "^9.8"
+    }
+}

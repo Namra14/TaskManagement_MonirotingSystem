@@ -1,0 +1,245 @@
+[
+    {
+        "id":"01",
+        "Specialization":"WMAD",
+        "job_name":"Web Developer",
+        "salary":"$75, 880 / ₱480,000",
+        "short_description":"A Web Developer, or Website Developer, is responsible for using their knowledge of programming languages to code websites and web applications. Their duties include communicating with clients to determine their needs and design preferences, creating code for the front and back-end of a website and running tests to ensure that they used the correct code strings.",
+        "main_description":"Nam scelerisque condimentum dui, ac fringilla tellus feugiat et. Fusce ut eros dui. In hac habitasse platea dictumst. Nunc fringilla tristique pellentesque. Aliquam in mi tortor. Vivamus maximus, lectus id interdum commodo, risus massa molestie lacus, sollicitudin dapibus nisl lacus ut magna. Etiam bibendum est non ex pretium, nec placerat ipsum molestie. Praesent volutpat dui et erat tristique ornare. Suspendisse non aliquam massa.",
+        "link":"https://www.indeed.com/recruitment/job-description/web-developer"
+    },
+    {
+        "id":"02",
+        "Specialization":"WMAD",
+        "job_name":"Front-End Developer",
+        "salary":"$92, 147 / ₱480,000",
+        "short_description":"Front end developers are computer programmers who specialize in website design. Front end developer duties include determining the structure and design of web pages, striking a balance between functional and aesthetic design, and ensuring web design is optimized for smartphones.",
+        "main_description":"Nam scelerisque condimentum dui, ac fringilla tellus feugiat et. Fusce ut eros dui. In hac habitasse platea dictumst. Nunc fringilla tristique pellentesque. Aliquam in mi tortor. Vivamus maximus, lectus id interdum commodo, risus massa molestie lacus, sollicitudin dapibus nisl lacus ut magna. Etiam bibendum est non ex pretium, nec placerat ipsum molestie. Praesent volutpat dui et erat tristique ornare. Suspendisse non aliquam massa.",
+        "link":"https://www.betterteam.com/front-end-developer-job-description"
+    },
+    {
+        "id":"03",
+        "Specialization":"WMAD",
+        "job_name":"Back-End Developer",
+        "salary":"$98, 750/ ₱541,500",
+        "short_description":"Back-end developers create, code, and improve the server, server-side applications, and databases that, when combined with front-end codes, help create a functional, seamless experience for the end-user. They study industry trends, create or improve back-end processes and codes, and work with others to design a better program",
+        "main_description":"Nam scelerisque condimentum dui, ac fringilla tellus feugiat et. Fusce ut eros dui. In hac habitasse platea dictumst. Nunc fringilla tristique pellentesque. Aliquam in mi tortor. Vivamus maximus, lectus id interdum commodo, risus massa molestie lacus, sollicitudin dapibus nisl lacus ut magna. Etiam bibendum est non ex pretium, nec placerat ipsum molestie. Praesent volutpat dui et erat tristique ornare. Suspendisse non aliquam massa.",
+        "link":"https://www.betterteam.com/back-end-developer-job-description"
+    },
+    {
+        "id":"04",
+        "Specialization":"WMAD",
+        "job_name":"Full-Stack Developer",
+        "salary":"$103, 442 / ₱580,790",
+        "short_description":"Full stack developers are computer programmers who are proficient in both front and back end coding. Their primary responsibilities include designing user interactions on websites, developing servers, and databases for website functionality, and coding for mobile platforms",
+        "main_description":"Nam scelerisque condimentum dui, ac fringilla tellus feugiat et. Fusce ut eros dui. In hac habitasse platea dictumst. Nunc fringilla tristique pellentesque. Aliquam in mi tortor. Vivamus maximus, lectus id interdum commodo, risus massa molestie lacus, sollicitudin dapibus nisl lacus ut magna. Etiam bibendum est non ex pretium, nec placerat ipsum molestie. Praesent volutpat dui et erat tristique ornare. Suspendisse non aliquam massa.",
+        "link":"https://www.betterteam.com/full-stack-developer-job-description"
+    },
+    {
+        "id":"05",
+        "Specialization":"WMAD",
+        "job_name":"App Developer",
+        "salary":"$528, 500 / ₱435, 106",
+        "short_description":"Also known as a software developer or software architect, an application developer is responsible for developing and modifying source code for software applications. These applications are aimed at aiding customers with computer tasks or programs.",
+        "main_description":"Nam scelerisque condimentum dui, ac fringilla tellus feugiat et. Fusce ut eros dui. In hac habitasse platea dictumst. Nunc fringilla tristique pellentesque. Aliquam in mi tortor. Vivamus maximus, lectus id interdum commodo, risus massa molestie lacus, sollicitudin dapibus nisl lacus ut magna. Etiam bibendum est non ex pretium, nec placerat ipsum molestie. Praesent volutpat dui et erat tristique ornare. Suspendisse non aliquam massa.",
+        "link":"https://www.betterteam.com/application-developer-job-description"
+    },
+    {
+        "id":"06",
+        "Specialization":"WMAD",
+        "job_name":"System Engineer",
+        "salary":"$91, 899 / ₱660, 106",
+        "short_description":"Systems engineers are responsible for designing and setting up an organization's networked computing infrastructure, ensuring that the system runs smoothly and efficiently, and resolving any technical issues that may arise.",
+        "main_description":"Nam scelerisque condimentum dui, ac fringilla tellus feugiat et. Fusce ut eros dui. In hac habitasse platea dictumst. Nunc fringilla tristique pellentesque. Aliquam in mi tortor. Vivamus maximus, lectus id interdum commodo, risus massa molestie lacus, sollicitudin dapibus nisl lacus ut magna. Etiam bibendum est non ex pretium, nec placerat ipsum molestie. Praesent volutpat dui et erat tristique ornare. Suspendisse non aliquam massa.",
+        "link":"https://www.betterteam.com/systems-engineer-job-description"
+    },
+    {
+        "id":"07",
+        "Specialization":"WMAD",
+        "job_name":"Mobile Developer",
+        "salary":"$10, 991 / ₱624,882",
+        "short_description":"A mobile app developer has a responsibility to translate the code into an easy-to-use application. They collaborate with internal teams to develop functional mobile apps while working in a fast-paced environment. Mobile developers develop application programming interfaces (APIs) to support mobile functionality while staying up-to-date with terminology, concepts, and best practices for coding mobile applications. Basically, mobile developers contribute to the design, testing, release, and support of applications. Mobile developers are generally employed by retailers, the healthcare sector and the travel and tourism industry.",
+        "main_description":"Nam scelerisque condimentum dui, ac fringilla tellus feugiat et. Fusce ut eros dui. In hac habitasse platea dictumst. Nunc fringilla tristique pellentesque. Aliquam in mi tortor. Vivamus maximus, lectus id interdum commodo, risus massa molestie lacus, sollicitudin dapibus nisl lacus ut magna. Etiam bibendum est non ex pretium, nec placerat ipsum molestie. Praesent volutpat dui et erat tristique ornare. Suspendisse non aliquam massa.",
+        "link":"https://www.betterteam.com/mobile-developer-job-description"
+    },
+    {
+        "id":"08",
+        "Specialization":"WMAD",
+        "job_name":"Mobile Game Designer",
+        "salary":"$16, 022 / ₱910,896",
+        "short_description":"Programs and writes code based on the video game design concept to create the software engine that controls the video game program, controls characters through artificial intelligence, and blends animation and sound. Designs and executes architecture of new systems to specification and implements technical requirement features as required by the console manufacturers.",
+        "main_description":"Nam scelerisque condimentum dui, ac fringilla tellus feugiat et. Fusce ut eros dui. In hac habitasse platea dictumst. Nunc fringilla tristique pellentesque. Aliquam in mi tortor. Vivamus maximus, lectus id interdum commodo, risus massa molestie lacus, sollicitudin dapibus nisl lacus ut magna. Etiam bibendum est non ex pretium, nec placerat ipsum molestie. Praesent volutpat dui et erat tristique ornare. Suspendisse non aliquam massa.",
+        "link":"https://www.erieri.com/salary/job/video-game-programmer/philippines"
+    },
+    {
+        "id":"09",
+        "Specialization":"WMAD",
+        "job_name":"IT Analyst",
+        "salary":"$11, 388 / ₱647,454",
+        "short_description":"IT analysts are information technology specialists who handle the analysis, maintenance, and enhancement of information systems. They evaluate, and develop information solutions, employing their skills to identify opportunities and risks for businesses. They also review human-IT processes and advise companies on information technology strategies.",
+        "main_description":"Nam scelerisque condimentum dui, ac fringilla tellus feugiat et. Fusce ut eros dui. In hac habitasse platea dictumst. Nunc fringilla tristique pellentesque. Aliquam in mi tortor. Vivamus maximus, lectus id interdum commodo, risus massa molestie lacus, sollicitudin dapibus nisl lacus ut magna. Etiam bibendum est non ex pretium, nec placerat ipsum molestie. Praesent volutpat dui et erat tristique ornare. Suspendisse non aliquam massa.",
+        "link":"https://www.betterteam.com/it-analyst-job-description"
+    },
+    {
+        "id":"10",
+        "Specialization":"SMP",
+        "job_name":"Call Center Representative",
+        "salary":"$31, 180/ ₱ 330, 000",
+        "short_description":"A Call Center Representative, or Call Center Agent, takes calls from customers answering questions or addressing any concerns they may have. Their duties include handling many inbound and outbound calls to and from customers, listening to customers needs or issues and providing helpful solutions to their problems.",
+        "main_description":"Nam scelerisque condimentum dui, ac fringilla tellus feugiat et. Fusce ut eros dui. In hac habitasse platea dictumst. Nunc fringilla tristique pellentesque. Aliquam in mi tortor. Vivamus maximus, lectus id interdum commodo, risus massa molestie lacus, sollicitudin dapibus nisl lacus ut magna. Etiam bibendum est non ex pretium, nec placerat ipsum molestie. Praesent volutpat dui et erat tristique ornare. Suspendisse non aliquam massa.",
+        "link":"https://www.indeed.com/recruitment/job-description/call-center-representative"
+    },
+    {
+        "id":"11",
+        "Specialization":"SMP",
+        "job_name":"IT Support",
+        "salary":"$51, 909 / ₱530, 000",
+        "short_description":"Also known as technical support engineers, IT support specialists provide organizations with information technology support to optimize operational efficiency. Their duties include resolving technical issues, maintaining hardware and software installations, and improving IT systems. They may also be required to provide IT support to customers.",
+        "main_description":"Nam scelerisque condimentum dui, ac fringilla tellus feugiat et. Fusce ut eros dui. In hac habitasse platea dictumst. Nunc fringilla tristique pellentesque. Aliquam in mi tortor. Vivamus maximus, lectus id interdum commodo, risus massa molestie lacus, sollicitudin dapibus nisl lacus ut magna. Etiam bibendum est non ex pretium, nec placerat ipsum molestie. Praesent volutpat dui et erat tristique ornare. Suspendisse non aliquam massa.",
+        "link":"https://www.betterteam.com/it-support-specialist-job-description"
+    },
+    {
+        "id":"12",
+        "Specialization":"SMP",
+        "job_name":"IT Consultant",
+        "salary":"$78, 360 / ₱576, 031",
+        "short_description":"IT consultants are external analysts who evaluate a company's IT systems to help them meet their business objectives. Their primary duties include analyzing and diagnosing a company's IT infrastructure, understanding a client's business needs, and designing and implementing a technology solution.",
+        "main_description":"Nam scelerisque condimentum dui, ac fringilla tellus feugiat et. Fusce ut eros dui. In hac habitasse platea dictumst. Nunc fringilla tristique pellentesque. Aliquam in mi tortor. Vivamus maximus, lectus id interdum commodo, risus massa molestie lacus, sollicitudin dapibus nisl lacus ut magna. Etiam bibendum est non ex pretium, nec placerat ipsum molestie. Praesent volutpat dui et erat tristique ornare. Suspendisse non aliquam massa.",
+        "link":"https://www.betterteam.com/it-consultant-job-description"
+    },
+    {
+        "id":"13",
+        "Specialization":"SMP",
+        "job_name":"Cyber Security Engineer",
+        "salary":"$106, 407/ ₱1,013,016",
+        "short_description":"Cyber security engineers help businesses by protecting their computer and networking systems from potential hackers and cyber-attacks. They safeguard sensitive data of a business from hackers and cyber-criminals who often create new ways to infiltrate sensitive databases.",
+        "main_description":"Nam scelerisque condimentum dui, ac fringilla tellus feugiat et. Fusce ut eros dui. In hac habitasse platea dictumst. Nunc fringilla tristique pellentesque. Aliquam in mi tortor. Vivamus maximus, lectus id interdum commodo, risus massa molestie lacus, sollicitudin dapibus nisl lacus ut magna. Etiam bibendum est non ex pretium, nec placerat ipsum molestie. Praesent volutpat dui et erat tristique ornare. Suspendisse non aliquam massa.",
+        "link":"https://www.betterteam.com/cyber-security-engineer-job-description"
+    },
+    {
+        "id":"14",
+        "Specialization":"SMP",
+        "job_name":"IT Service Desk Analyst",
+        "salary":"$50, 108/ ₱363, 153",
+        "short_description":"Also known as help desk analysts, service desk analysts are IT professionals who help users resolve issues with computer technologies. They contribute to IT system optimization, communicate with clients to resolve technical issues, and ensure that personnel is able to utilize the systems and software that they need.",
+        "main_description":"Nam scelerisque condimentum dui, ac fringilla tellus feugiat et. Fusce ut eros dui. In hac habitasse platea dictumst. Nunc fringilla tristique pellentesque. Aliquam in mi tortor. Vivamus maximus, lectus id interdum commodo, risus massa molestie lacus, sollicitudin dapibus nisl lacus ut magna. Etiam bibendum est non ex pretium, nec placerat ipsum molestie. Praesent volutpat dui et erat tristique ornare. Suspendisse non aliquam massa.",
+        "link":"https://www.betterteam.com/service-desk-analyst-job-description"
+    },
+    {
+        "id":"15",
+        "Specialization":"SMP",
+        "job_name":"IT Service Delivery Manager",
+        "salary":"$7, 513 / ₱427,154",
+        "short_description":"A service delivery manager is responsible for making sure that services are being seamlessly delivered to the clients of an organization. They are in charge of a variety of tasks, such as leading project teams, rectifying reliability issues, monitoring progress, tracking KPIs, and managing budgets. A service delivery manager plays a vital role in boosting the user experience by ensuring the smooth delivery of top-notch services that meet and exceed customer demands. This document provides you with everything that you need to know to kick-start your career as a service delivery manager.",
+        "main_description":"Nam scelerisque condimentum dui, ac fringilla tellus feugiat et. Fusce ut eros dui. In hac habitasse platea dictumst. Nunc fringilla tristique pellentesque. Aliquam in mi tortor. Vivamus maximus, lectus id interdum commodo, risus massa molestie lacus, sollicitudin dapibus nisl lacus ut magna. Etiam bibendum est non ex pretium, nec placerat ipsum molestie. Praesent volutpat dui et erat tristique ornare. Suspendisse non aliquam massa.",
+        "link":"https://www.simplilearn.com/service-delivery-manager-article"
+    },
+    {
+        "id":"16",
+        "Specialization":"SMP",
+        "job_name":"Project Program & Service Management Analyst",
+        "salary":"$105,774 / ₱6,013,516",
+        "short_description":"As a Project Program & Service Management Analyst, you will play a critical role in managing client programs, ensuring the seamless delivery of services, and supporting various educational and coaching sessions. You will be responsible for overseeing the entire program lifecycle, from registration to post-session activities, while providing essential support to faculty and participants. This role requires a proactive, detail-oriented individual who excels in multitasking, communication, and problem-solving.",
+        "main_description":"Nam scelerisque condimentum dui, ac fringilla tellus feugiat et. Fusce ut eros dui. In hac habitasse platea dictumst. Nunc fringilla tristique pellentesque. Aliquam in mi tortor. Vivamus maximus, lectus id interdum commodo, risus massa molestie lacus, sollicitudin dapibus nisl lacus ut magna. Etiam bibendum est non ex pretium, nec placerat ipsum molestie. Praesent volutpat dui et erat tristique ornare. Suspendisse non aliquam massa.",
+        "link":"https://www.accenture.com/ph-en/careers/jobdetails?id=R00145160_en"
+    },
+    {
+        "id":"17",
+        "Specialization":"SMP",
+        "job_name":"Service Management Associate",
+        "salary":"$5, 279 / ₱300,125",
+        "short_description":"The Business Reporting and Governance vertical helps to deploy and deliver robust tracking mechanism for SLA/KPI or any other operations on a day to day basis. The Reporting team works on daily reports required by senior leadership and help deliver the requirements in a timely and accurate manner with business insights. You will also have to have the ability to transform them to visualized tools and databases so that more insights can be driven for leadership teams. The focus in this role will be on using Microsoft Excel for data management and reporting. This includes leveraging the platform to perform calculations, make pivot tables, use graphing tools, and make macros using Visual Basic.",
+        "main_description":"Nam scelerisque condimentum dui, ac fringilla tellus feugiat et. Fusce ut eros dui. In hac habitasse platea dictumst. Nunc fringilla tristique pellentesque. Aliquam in mi tortor. Vivamus maximus, lectus id interdum commodo, risus massa molestie lacus, sollicitudin dapibus nisl lacus ut magna. Etiam bibendum est non ex pretium, nec placerat ipsum molestie. Praesent volutpat dui et erat tristique ornare. Suspendisse non aliquam massa.",
+        "link":"https://www.naukri.com/job-listings-service-management-associate-accenture-solutions-pvt-ltd-bangalore-bengaluru-1-to-3-years-031023905372?src=seo_srp&sid=1696358595044582&xp=2&px=1"
+    },
+    {
+        "id":"18",
+        "Specialization":"SMP",
+        "job_name":"Customer Service Analyst",
+        "salary":"$7, 718 / ₱300,125",
+        "short_description":"A Customer Service Analyst analyzes a customer service department`s operations and provides recommendations on ways to improve productivity and customer satisfaction levels. Using various data such as customer satisfaction reports, surveys and complaint logs, Customer Service Analysts are able to develop strategies and techniques to enhance the service department’s effectiveness. They may also work directly with customers helping to troubleshoot issues and resolve customer dissatisfaction.",
+        "main_description":"Nam scelerisque condimentum dui, ac fringilla tellus feugiat et. Fusce ut eros dui. In hac habitasse platea dictumst. Nunc fringilla tristique pellentesque. Aliquam in mi tortor. Vivamus maximus, lectus id interdum commodo, risus massa molestie lacus, sollicitudin dapibus nisl lacus ut magna. Etiam bibendum est non ex pretium, nec placerat ipsum molestie. Praesent volutpat dui et erat tristique ornare. Suspendisse non aliquam massa.",
+        "link":"https://www.jobhero.com/job-description/examples/customer-service/analyst"
+    },
+    {
+        "id":"19",
+        "Specialization":"AMG",
+        "job_name":"Animator",
+        "salary":"$76, 853 / ₱227, 208",
+        "short_description":"Animators use computers and other techniques to create moving images that tell stories or provide information. They work with clients and production team members to establish project goals, create storyboards, and design and refine animations.",
+        "main_description":"Nam scelerisque condimentum dui, ac fringilla tellus feugiat et. Fusce ut eros dui. In hac habitasse platea dictumst. Nunc fringilla tristique pellentesque. Aliquam in mi tortor. Vivamus maximus, lectus id interdum commodo, risus massa molestie lacus, sollicitudin dapibus nisl lacus ut magna. Etiam bibendum est non ex pretium, nec placerat ipsum molestie. Praesent volutpat dui et erat tristique ornare. Suspendisse non aliquam massa.",
+        "link":"https://www.betterteam.com/animator-job-description"
+    },
+    {
+        "id":"20",
+        "Specialization":"AMG",
+        "job_name":"Graphic Designer",
+        "salary":"$54, 900 / ₱420, 000",
+        "short_description":"A Graphic Designer, or Graphic Artist, is responsible for creating aesthetically pleasing images that accompany written text. Their duties include meeting with clients to establish their needs, using design software to complete projects and revising projects based on client feedback",
+        "main_description":"Nam scelerisque condimentum dui, ac fringilla tellus feugiat et. Fusce ut eros dui. In hac habitasse platea dictumst. Nunc fringilla tristique pellentesque. Aliquam in mi tortor. Vivamus maximus, lectus id interdum commodo, risus massa molestie lacus, sollicitudin dapibus nisl lacus ut magna. Etiam bibendum est non ex pretium, nec placerat ipsum molestie. Praesent volutpat dui et erat tristique ornare. Suspendisse non aliquam massa.",
+        "link":"https://www.indeed.com/recruitment/job-description/graphic-designer"
+    },
+    {
+        "id":"21",
+        "Specialization":"WMAD",
+        "job_name":"IT Consultant",
+        "salary":"$62, 558 / ₱594, 125",
+        "short_description":"An IT Consultant is a knowledgeable professional who helps businesses develop, integrate, and maximize the value of IT systems. They provide strategic advice, troubleshoot technical issues, and offer expertise in areas such as hardware, software, networks, and project management.",
+        "main_description":"Nam scelerisque condimentum dui, ac fringilla tellus feugiat et. Fusce ut eros dui. In hac habitasse platea dictumst. Nunc fringilla tristique pellentesque. Aliquam in mi tortor. Vivamus maximus, lectus id interdum commodo, risus massa molestie lacus, sollicitudin dapibus nisl lacus ut magna. Etiam bibendum est non ex pretium, nec placerat ipsum molestie. Praesent volutpat dui et erat tristique ornare. Suspendisse non aliquam massa.",
+        "link":"https://resources.workable.com/it-consultant-job-description"
+    },
+    {
+        "id":"22",
+        "Specialization":"AMG",
+        "job_name":"Motion Graphic Designer",
+        "salary":"$76, 000 / ₱630, 000",
+        "short_description":"Motion Graphics Designers, sometimes just called motion designers, create artwork for the web, television, or film. They use visual effects, animation and other cinematic techniques to bring life to their creations. Todays Motion Graphics Designer creates live video content, graphics, and animation for handheld electronic devices, web programs, video games, and for smartphones and mobile platforms, including apps.",
+        "main_description":"Nam scelerisque condimentum dui, ac fringilla tellus feugiat et. Fusce ut eros dui. In hac habitasse platea dictumst. Nunc fringilla tristique pellentesque. Aliquam in mi tortor. Vivamus maximus, lectus id interdum commodo, risus massa molestie lacus, sollicitudin dapibus nisl lacus ut magna. Etiam bibendum est non ex pretium, nec placerat ipsum molestie. Praesent volutpat dui et erat tristique ornare. Suspendisse non aliquam massa.",
+        "link":"https://www.celarity.com/job-description/motion-graphics-designer/"
+    },
+    {
+        "id":"23",
+        "Specialization":"AMG",
+        "job_name":"Digital Media Specialist",
+        "salary":"$51, 764 / ₱247, 000",
+        "short_description":"Digital media specialists work closely with the marketing and communication departments to create the perfect content for digital media campaigns. They have excellent knowledge of the usage of digital media channels to improve the company’s online presence and customer engagement.",
+        "main_description":"Nam scelerisque condimentum dui, ac fringilla tellus feugiat et. Fusce ut eros dui. In hac habitasse platea dictumst. Nunc fringilla tristique pellentesque. Aliquam in mi tortor. Vivamus maximus, lectus id interdum commodo, risus massa molestie lacus, sollicitudin dapibus nisl lacus ut magna. Etiam bibendum est non ex pretium, nec placerat ipsum molestie. Praesent volutpat dui et erat tristique ornare. Suspendisse non aliquam massa.",
+        "link":"https://www.betterteam.com/digital-media-specialist-job-description"
+    },
+    {
+        "id":"24",
+        "Specialization":"AMG",
+        "job_name":"Video Editor",
+        "salary":"$56, 649 / ₱254, 196",
+        "short_description":"Video editors manipulate film and video footage to create a coherent and complete project that accurately depicts the film directors envision. They use complex editing software to piece together stills, footage, sound effects, dialog, and animation effects.",
+        "main_description":"Nam scelerisque condimentum dui, ac fringilla tellus feugiat et. Fusce ut eros dui. In hac habitasse platea dictumst. Nunc fringilla tristique pellentesque. Aliquam in mi tortor. Vivamus maximus, lectus id interdum commodo, risus massa molestie lacus, sollicitudin dapibus nisl lacus ut magna. Etiam bibendum est non ex pretium, nec placerat ipsum molestie. Praesent volutpat dui et erat tristique ornare. Suspendisse non aliquam massa.",
+        "link":"https://www.betterteam.com/video-editor-job-description"
+    },
+    {
+        "id":"25",
+        "Specialization":"AMG",
+        "job_name":"Multimedia Designer",
+        "salary":"$56, 649 / ₱254, 196",
+        "short_description":"Multimedia designers are graphic design specialists who combine graphics with animation to create multimedia content for websites, television, films, and advertising displays. They may work in a variety of fields including advertising, video game design, web design, or television.",
+        "main_description":"Nam scelerisque condimentum dui, ac fringilla tellus feugiat et. Fusce ut eros dui. In hac habitasse platea dictumst. Nunc fringilla tristique pellentesque. Aliquam in mi tortor. Vivamus maximus, lectus id interdum commodo, risus massa molestie lacus, sollicitudin dapibus nisl lacus ut magna. Etiam bibendum est non ex pretium, nec placerat ipsum molestie. Praesent volutpat dui et erat tristique ornare. Suspendisse non aliquam massa.",
+        "link":"https://www.betterteam.com/multimedia-designer-job-description"
+    },
+    {
+        "id":"26",
+        "Specialization":"AMG",
+        "job_name":"Sound Engineer",
+        "salary":"$6, 233 / ₱354,396",
+        "short_description":"A sound engineer mixes and reproduces sound for different mediums, including movies, music, television commercials and theater productions. They may design the sound that they'll use in their production and operate sound boards to make sure the sound comes through as intended.",
+        "main_description":"Nam scelerisque condimentum dui, ac fringilla tellus feugiat et. Fusce ut eros dui. In hac habitasse platea dictumst. Nunc fringilla tristique pellentesque. Aliquam in mi tortor. Vivamus maximus, lectus id interdum commodo, risus massa molestie lacus, sollicitudin dapibus nisl lacus ut magna. Etiam bibendum est non ex pretium, nec placerat ipsum molestie. Praesent volutpat dui et erat tristique ornare. Suspendisse non aliquam massa.",
+        "link":"https://resources.workable.com/sound-engineer-job-description"
+    },
+    {
+        "id":"27",
+        "Specialization":"AMG",
+        "job_name":"Technical Writer",
+        "salary":"$8, 586 / ₱488,156",
+        "short_description":"A technical writer creates copy that describes how a product functions to an end user. They may create guides, instruction manuals, documentation, diagrams and articles to communicate the product's features, benefits and uses. Technical writers write their copy to remove overly technical information and make it easier for their readers and the users of the product to understand what they are communicating.",
+        "main_description":"Nam scelerisque condimentum dui, ac fringilla tellus feugiat et. Fusce ut eros dui. In hac habitasse platea dictumst. Nunc fringilla tristique pellentesque. Aliquam in mi tortor. Vivamus maximus, lectus id interdum commodo, risus massa molestie lacus, sollicitudin dapibus nisl lacus ut magna. Etiam bibendum est non ex pretium, nec placerat ipsum molestie. Praesent volutpat dui et erat tristique ornare. Suspendisse non aliquam massa.",
+        "link":"https://resources.workable.com/technical-writer-job-description"
+    }
+  ]

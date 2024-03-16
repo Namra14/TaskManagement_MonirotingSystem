@@ -1,0 +1,178 @@
+body {
+    background: #f1f2f6;
+    background: #f1f2f6;
+    background: #f1f2f6;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+}
+
+.btn {
+	margin-top: -3.5% !important;
+	float: right;
+	border: 1px solid #ccc;
+	padding: 5px;
+	border-radius: 5px;
+	width: 15% !important;
+}
+.btn:hover{
+	cursor: pointer;
+}
+.student-profile{
+	margin-top: 5%;
+}
+.student-profile .card {
+    border-radius: 10px;
+}
+.student-profile .card .card-header .profile_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+    border-radius: 50%;
+    border: 5px solid #dfe6e9;
+}
+.student-profile .card h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.student-profile .card p {
+    font-size: 16px;
+    color: #000;
+}
+
+.student-profile .table th,
+.student-profile .table td {
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #000;
+}
+
+.student-profile .table tr{
+	text-align: center;
+}
+
+
+
+/*======= UPDATE PROFILE CSS =======*/
+.overlay{
+ 	position: fixed;
+ 	top: 0;
+ 	bottom: 0;
+ 	left: 0;
+ 	right: 0;
+ 	background: rgba(0, 0, 0, 0.8);
+ 	transition: opacity 100ms;
+	visibility: hidden;
+ 	opacity: 0;
+}
+.overlay:target{
+ 	visibility: visible;
+ 	opacity: 1;
+}
+.content{
+	margin-top: 8%;
+	margin-left: 20%;
+	padding: 35px 2% 70px 3%;
+	width: 65%;
+	background-color: #e7e7e7;
+	border-radius: 5px;
+}
+.content h1{
+	margin-bottom: 3%;
+	margin-top: 1%;
+	padding-left: 30%;
+	text-transform: uppercase;
+}
+.wrapper .close{
+	font-size: 30px;
+	margin-top: 1%;
+	margin-right: 16%;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap:15px;
+}
+form{
+	padding:20px;
+	background-color: var(--white);
+	box-shadow: var(--box-shadow);
+    width: 100%;
+    border-radius: 5px;
+}
+form label{
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 18px;
+}
+form span{
+	text-align: left;
+    display: block;
+    margin-top: 15px;
+    font-size: 17px;
+    color:var(--black);
+}
+input[type="text"], input[type="password"], #order1{
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	font-size: 14px;
+	text-align: center;
+}
+#order1 option{
+	font-size: 16px;
+}
+input[type="submit"]{
+	background-color: #413b3b;
+	color: #fff;
+	padding: 15px 50px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	width: 100%;
+}
+input[type="submit"]:hover{
+	background-color: #cb202d;
+}
+input[type="file"]{
+	padding-left: 25%;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+.box{
+	width: 100%;
+    border-radius: 5px;
+    padding:6px 8px;
+    font-size: 18px;
+    color:var(--black);
+    margin:10px 0;
+}
+.sfy{
+	width: 75%;
+}
+.upc{
+	width: 75%;
+}
+.message{
+   position: sticky;
+   top:0; left:0;
+   z-index: 10000;
+   border-radius: .5rem;
+   padding:1.5rem 2rem;
+   margin:0 auto;
+   max-width: 1200px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap:1.5rem;
+}

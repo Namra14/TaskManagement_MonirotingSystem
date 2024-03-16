@@ -1,0 +1,78 @@
+.testimonial-slider {
+  background: rgb(255,141,93);
+  padding: 3em 2em;
+}
+.testimonial-title {
+  margin-top: -15%;
+  color: #fff;
+}
+.testimonial-title h2 {
+  padding-left: 0.2em;
+}
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  height: 100%;
+  flex: 1 0 auto;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #fff;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  top: 60%;
+  transform: translateY(-50%);
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+}
+
+.card-deck {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+#card-title{
+  font-size: 35px;
+}
+
+@media (min-width: 576px) {
+  .carousel-item {
+    flex: 0 0 100%;
+  }
+  .carousel-inner {
+    display: flex;
+  }
+}
+@media (min-width: 768px) {
+  .carousel-inner {
+    padding: 1em;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    left: 1em;
+    top: 90%;
+    opacity: 1;
+  }
+  .carousel-control-next {
+    left: 4.5em;
+  }
+}
+
+@media (max-width: 768px) {
+  #card-title{
+    font-size: 23px;
+  }
+  #card-txt{
+    font-size: 14px;
+  }
+  #blog-btn{
+    font-size: 15px;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+  }
+}
