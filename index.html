@@ -170,41 +170,123 @@ include "include/logic.php";
         </div>
     </section>
     
-<!-- Learn More part 2 -->
-<section class="bg-white text-dark p-1 text-center text-md-start" id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <img class="img-fluid my-1" src="img/computer-img2.png" alt="" id="aboutimg">
-            </div>
-            <div class="col-md-6 d-flex flex-column justify-content-center">
-                <div class="about">
-                    <h4 class="display-6 text-dark py-2 fw-bold">
-                        <span class="smarter">Share </span>your
-                        schedule with everyone
-                    </h4>
-                    <p class="lead paragraph text-secondary">
-                        Smarter task management for work involves employing
-                        effective strategies.
-                    </p>
-                    <a href="aboutus.php" class="btn btn-button1">Learn More</a>
+    <!-- Learn More part 2 -->
+    <section class="bg-white text-dark p-1 text-center text-md-start" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img-fluid my-1" src="img/computer-img2.png" alt="" id="aboutimg">
+                </div>
+                <div class="col-md-6 d-flex flex-column justify-content-center">
+                    <div class="about">
+                        <h4 class="display-6 text-dark py-2 fw-bold">
+                            <span class="smarter">Share </span>your
+                            schedule with everyone
+                        </h4>
+                        <p class="lead paragraph text-secondary">
+                            Smarter task management for work involves employing
+                            effective strategies.
+                        </p>
+                        <a href="aboutus.php" class="btn btn-button1">Learn More</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+
+    <h4 class="nav-title faqs">FAQs</h4>
+    <section class="container-fluid hidden my-5" id="profile-page">
+        <div class="row">
+       <!-- FAQS Tab Nav -->
+            <div class="col-md-4 my-5 d-none d-sm-block" id="profile-details">
+                <div class="nav flex-column nav-pills text-center w-75 mx-auto my-3 " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <div class="d-flex justify-content-start align-items-center mb-3">
+                        <img src="img/man-calendar.png" alt="FAQ Image" class="faq-img mr-3">
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <!-- Tab content -->
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-link1" role="tabpanel" aria-labelledby="v-pills-link1-tab">
+                        <div class="accordion accordion-flush mt-5" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse" data-mdb-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        1. What is the Specializations Recommendation System, and how does it make specialization recommendations?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-mdb-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        The Specializations Recommendation System is an online platform designed to help students make informed decisions about their academic specializations and career paths. It assesses your abilities, interests, and career aspirations to recommend the most suitable specialization for you. The system provides three types of recommendations: grade-based, preference-based (OpenAI-based recommendations), and assessment-based (quiz) recommendations.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse" data-mdb-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        2. How does the system use machine learning in the grade-based recommendation?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-mdb-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        The grade-based recommendation utilizes machine learning algorithms to analyze your academic performance and predict suitable specializations based on your grades and performance trends. This data-driven approach enhances the accuracy of recommendations.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse" data-mdb-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                        3. What is the OpenAI-based recommendation, and how does it work?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-mdb-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        The OpenAI-based recommendation leverages state-of-the-art artificial intelligence technology to analyze your preferences, interests, and career aspirations. This recommendation method uses natural language processing to understand your input and provide personalized specialization recommendations based on your preferences.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse" data-mdb-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                        4. What is the assessment-based (quiz) recommendation, and how does it function?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-mdb-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        The assessment-based recommendation involves a quiz that assesses your abilities and preferences. This quiz helps the system understand your unique strengths and interests, allowing it to make tailored recommendations for your academic specialization.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse" data-mdb-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                        5. Are these recommendation methods reliable?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-mdb-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        Yes, the recommendations are designed to be reliable and effective. The grade-based recommendation uses data-driven machine learning, the OpenAI-based recommendation employs advanced language processing, and the assessment-based recommendation is based on a comprehensive quiz. However, individual preferences and career goals can vary, so it's important to consider the recommendations alongside guidance from academic advisors and career counselors.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
 
 
 
 
-    <!--FEATURES-->
+    <!--FEATURES
     <section class="bg-white text-dark p-5 text-center">
         <div class="container hidden">
             <p>We present to you the</p>
             <h3 class="display-4 mb-5" id="feature">Features</h3>
 
             <div class="container features">
-                <!--FirstRow-->
                 <div class="row">
                     <div class="col-md-4 mb-4">
                         <div class="card border-light text-white custom-card rounded-4 overflow-hidden hidden">
@@ -240,7 +322,6 @@ include "include/logic.php";
                     </div>
                 </div>
 
-                <!--Second Row-->
                 <div class="row">
                     <div class="col-md-8 mb-4">
                         <div class="col-md-12">
@@ -276,12 +357,11 @@ include "include/logic.php";
                         </div>
                     </div>
                 </div>
-    </section>
+    </section>-->
 
 
-    <!-- Logos -->
+    <!-- Logos 
     <section>
-        <!--Organization logos-->
         <div class="container hidden">
             <div class="row mt-5">
                 <div class="col-2">
@@ -304,10 +384,10 @@ include "include/logic.php";
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
 
 
-    <!-- BLOGS -->
+    <!-- BLOGS
     <section class="bg-custom-img" id="blogs">
         <div class="container text-dark py-5 hidden">
 
@@ -346,7 +426,7 @@ include "include/logic.php";
                                         </div>
                                     </div>
 
-                                    <!--<?php foreach ($query as $q) { ?>
+                                    
                                         <div class="carousel-item">
                                             <div class="card card-deck rounded-4 shadow">
                                                 <div class="card-body">
@@ -357,7 +437,7 @@ include "include/logic.php";
                                                 </div>
                                             </div>
                                         </div>
-                                    <?php } ?>-->
+                                    
                                 </div>
                             </div>
                         </div>
@@ -365,11 +445,11 @@ include "include/logic.php";
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
 
 
     <!--FOOTER-->
-    <!--Subscribe newsletter-->
+    <!--Subscribe newsletter
     <div class="container my-5">
         <div class="row justify-content-center mb-4">
             <div class="col-md-6">
@@ -384,9 +464,9 @@ include "include/logic.php";
                 </form>
             </div>
         </div>
-    </div>
+    </div>-->
 
-    <!--Navbar-->
+    <!--Navbar
 <nav class="nav navbar navbar-expand-xl bg-light navbar-light">
     <div class="container">
         <a href="index.php" class="navbar-brand"><img src="img/logo-v4.png" alt="logo" width="250px" height="80px"></a>
@@ -419,7 +499,7 @@ include "include/logic.php";
             </ul>
         </div>
     </div>
-</nav>
+</nav>-->
 
     <!--<?php include 'include/footer.php'; ?>-->
 
