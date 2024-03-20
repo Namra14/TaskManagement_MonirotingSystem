@@ -133,7 +133,18 @@
     background-color: white;
     transition: 1s;
 }
-
+@media (max-width: 768px) {
+  .btn-button {
+    border-radius: 20px; 
+    padding: 2px 40px;
+    border: 2px solid white;
+    background-color: #7469B6; 
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 15px;
+  }
+}
 /* Custom Button */
 .custom-btn{
     padding: 10px 20px;
@@ -154,9 +165,6 @@
   text-decoration: none;
   background: #0d6efd;
 }
-
-
-
 
 
 
@@ -192,6 +200,19 @@
   left: -90px;
   border-radius: 50%;
 }
+@media (max-width: 768px) {
+  .position1,
+  .position2,
+  .position3 {
+      position: static;
+      display: block;
+      margin: 0 auto;
+  }
+
+  .position4 {
+      display: none;
+  }
+}
 
 /*Calendar img */
 
@@ -219,19 +240,11 @@
   height: 250px; /* Maintain aspect ratio */
   margin-left: -350px;
 }
-
-
 @media (max-width: 768px) {
-  .position1,
-  .position2,
-  .position3 {
-      position: static;
-      display: block;
-      margin: 0 auto;
-  }
-
-  .position4 {
-      display: none;
+ .calendar-man img{
+  width: 150px;
+  height: auto;
+  margin: 0 auto;
   }
 }
 
@@ -288,6 +301,16 @@
   font-size: 30px;
   color: #33186B;
 }
+@media (max-width: 768px){
+  #cards{
+    margin-top: -80px;
+    width: 250px;
+  }
+  .card-body{
+    font-size: 10px;
+    font-weight: bold;
+  }
+}
 
 /* Learn More*/
 .h2{
@@ -313,87 +336,106 @@
   color: #7469B6;
   font-weight: 500;
   text-decoration: none;
+  font-size: 10px;
 }
 .btn-button1:hover{
   color: #ffff;
   background-color: #7469B6;
   transition: 1s;
 }
+#aboutimg{
+  margin-top: 50px;
+  height: 400px;
+  width: 500px;
+}
 
 @media (max-width: 768px){
-  .btn-button1{
-    padding: 2px 2px;
+  #about{
+    margin-bottom: 100px;
   }
 }
 /*Faqs*/
 
 /*FAQS PAGE*/
+/*FAQS PAGE*/
 #profile-page {
   display: flex;
-  margin: 0 auto;
-}
-
-#profile-details {
-  display: flex;
+  flex-direction: column;
   align-items: center;
 }
-.faqs{
+
+.faqs {
   text-align: center;
-  margin-bottom: -70px;
-  margin-top: 100px;
+  margin-bottom: 10px; /* Adjust margin */
+  margin-top: auto;
   font-weight: 800;
   font-size: 30px;
 }
+
 .tab-content {
-  margin-left: 200px; /* Adjust margin as needed */
+  margin-top: 20px;
+  width: 100%;
+  max-width: 800px; 
 }
 
 .faq-img {
-  width: 400px; /* Adjust max width of the image */
-  height: 300px;
+  width: 100%;
+  max-width: 400px; 
+  height: auto;
   margin-left: 50px;
 }
 
-#faqs{
-  height: 400px;
-  align-items: center;
-}
-.ques{
-  position: absolute;
-  top: 10.9%;
-  overflow: hidden;
-  width: auto;
-  max-width: 100%;
-  height: auto;
-}
-.ques1{
-  position: absolute;
-  top: 32.6%;
-  right: 14%;
-  width: auto;
-  max-width: 100%;
-  height: auto;
-}
-#fh2{
-  margin-top: 5%;
-  font-size: 50px;
-  font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
-}
-.input-group{
-  height: 50px;
+@media (max-width: 768px) {
+  .faq-img {
+    display: none; 
+  }
+
+  .accordion-item {
+    font-size: 10px;
+    margin: 0 auto;
+  }
+
+  #flush-headingOne {
+    font-size: 10px;
+  }
+
+  .nav-title h4 {
+    margin-top: 10px; 
+    margin-bottom: -100px;
+  }
+
+  .row {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .col-md-4 {
+    width: 100%; 
+  }
+
+  .col-md-6 {
+    width: 100%; 
+    text-align: center; 
+    margin: 0 auto; 
+  }
 }
 
-/*Whats-new Crds*/
-.whats-new{
-  margin-bottom: 100px;
+/*Whats-new Cards*/
+.image-wrapper {
+  width: 100%;
+  overflow: hidden;
+  height: 250px;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.footer{
   margin-top: 100px;
 }
-.card-img{
-  overflow: hidden;
-  max-width: 100%; /* Ensure the image fits within the card */
-      height: auto; /* Maintain aspect ratio */
-}
 
 
 
@@ -404,14 +446,7 @@
 
 
 
-
-
-
-
-
-
-
-/*  About Card*/
+/*  About Card
 #card{
   width: 20%;
 }
@@ -467,7 +502,7 @@
   }
 }
 
-/*Features*/
+/*Features
 #feature{
   font-weight: 700;
 }
@@ -519,7 +554,7 @@
 }
 
 
-/*image logo designs */
+/*image logo designs 
 .custom-f1{
   margin-top: -70px;
   margin-right: -50px;
@@ -533,7 +568,7 @@
 
 }
 
-/*feature buttons */
+/*feature buttons 
 .custom-a1{
   text-decoration: underline;
   font-weight: 500;
@@ -576,7 +611,7 @@
 }
 
 
-/*Org logos*/
+/*Org logos
 .custom-org{
   height: 100px;
   width: auto;
@@ -586,8 +621,8 @@
 }
 
 
-/*Footer*/
-/*Input email for newsletter*/
+/*Footer
+/*Input email for newsletter
 .subs{
   font-size: 20px;
   font-weight: 700;
@@ -604,7 +639,7 @@
   transition: 0.5s;
 }
 
-/*about us page*/
+/*about us page
 #abcard{
   height: 700px;
   margin-bottom: 100px;
@@ -672,7 +707,7 @@ span{
   color: white;
 }
 
-/*Image of dean*/
+/*Image of dean
 .dean{
   display: flex;
   width: 780px;
@@ -681,7 +716,7 @@ span{
   position: sticky;
 }
 
-/*video*/
+/*video
 .custom-video {
   display: block;
   margin: 100px auto;
@@ -693,7 +728,7 @@ span{
 
 
 
-/*Gettingstarted card in about us*/
+/*Gettingstarted card in about us
 #gscard{
   width: 100%;
   height: 250px;
@@ -719,8 +754,8 @@ span{
 
 
 
-/* How it works page */
-/*FeatureCards*/
+/* How it works page 
+/*FeatureCards
 #fc{
   border: none;
 }
@@ -734,7 +769,7 @@ span{
   color: #272829;
   margin-top: 10px;
 }
-/*featurecard logos*/
+/*featurecard logos
 .bi-gear{
   color: #FF8551;
   font-size: 50px;
@@ -856,7 +891,7 @@ span{
 
 
 
-/* Recommendations */
+/* Recommendations 
 #card-based{
   background-color: #FAF3F0;
   border: none;
@@ -904,7 +939,7 @@ span{
   color: #F94C10;
 }
 
-/*table recomm*/
+/*table recomm
 .table{
   margin-top: 10%;
 }
@@ -935,7 +970,7 @@ td{
 }
 
 
-/*CONTACT PAGE*/
+/*CONTACT PAGE
 .contact{
   background-color: #FF8551;
   height: 650px;
@@ -980,7 +1015,7 @@ td{
   right: 15%;
 }
 
-/*Contact cards*/
+/*Contact cards
 .c-heading{
   text-align: center;
   font-weight: 800;
@@ -1006,7 +1041,7 @@ td{
 
 
 
-/* Assessment Page*/
+/* Assessment Page
 .overlay{
   position: fixed;
   top: 0;
@@ -1071,100 +1106,6 @@ td{
 
 
 
-/*FAQS PAGE*/
-#faqs{
-  height: 400px;
-  align-items: center;
-}
-.ques{
-  position: absolute;
-  top: 10.9%;
-  overflow: hidden;
-  width: auto;
-  max-width: 100%;
-  height: auto;
-}
-.ques1{
-  position: absolute;
-  top: 32.6%;
-  right: 14%;
-  width: auto;
-  max-width: 100%;
-  height: auto;
-}
-#fh2{
-  margin-top: 5%;
-  font-size: 50px;
-  font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
-}
-.input-group{
-  height: 50px;
-}
-
-
-
-
-
-/* Preg-Based Result */
-#abcard1{
-  height: 550px;
-  margin-bottom: 100px;
-  border-radius: 20px;
-  background-color: #ffcfc0;
-}
-
-
-/* Animations */
-.hidden{
-  opacity: 0;
-  filter: blur(2px);
-  transform: translateX(-25%);
-  transition: all 1s;
-}
-
-.hidden2{
-  opacity: 0;
-  filter: blur(2px);
-  transform: translateX(100%);
-  transition: all 1s;
-}
-
-.show{
-  opacity: 1;
-  filter: blur(0);
-  transform: translateX(0);
-}
-
-@media(prefers-reduced-motion){
-  .hidden{
-    transition: none;
-  }
-}
-
-.animate-delay:nth-child(2){
-  transition-delay: 250ms;
-}
-
-.animate-delay:nth-child(3){
-  transition-delay: 450ms;
-}
-.animate-delay:nth-child(4){
-  transition-delay: 650ms;
-}
-.animate-delay:nth-child(5){
-  transition-delay: 850ms;
-}
-.animate-delay:nth-child(6){
-  transition-delay: 1050ms;
-}
-
-
-
-
-
-
-
 
 
 
@@ -1174,11 +1115,11 @@ td{
 
 
 @media (max-width: 768px) {
-  /* Adjust styles for screens up to 768px wide */
+  /* Adjust styles for screens up to 768px wide 
   #abcard {
-    width: 100%; /* Full width */
-    max-width: none; /* No maximum width */
-    margin-bottom: 50px; /* Reduce margin */
+    width: 100%; /* Full width 
+    max-width: none; /* No maximum width 
+    margin-bottom: 50px; /* Reduce margin 
   }
   .container .h1{
     font-size: 25px;
@@ -1210,7 +1151,7 @@ td{
 
 
 
-  /*Features*/
+  /*Features
   #feature{
     font-weight: 700;
   }
@@ -1275,7 +1216,7 @@ td{
     width: 100%;
   }
 
-  /*feature buttons */
+  /*feature buttons 
   .custom-a1{
     text-decoration: underline;
     font-weight: 500;
@@ -1346,12 +1287,12 @@ td{
   }
 
 
-  /* accordion */
+  /* accordion 
   .acrdn-text{
     font-size: 14px;
   }
   
-  /* contact-us */
+  /* contact-us 
   .login-section {
     display: flex;
     justify-content: center;
@@ -1388,7 +1329,7 @@ td{
     max-width: 100%;
   }
 
-  /* Assessment Page*/
+  /* Assessment Page
   .overlay{
     position: fixed;
     top: 0;
@@ -1452,5 +1393,5 @@ td{
     font-size: 12px;
   }
 
-}
+}*/
 

@@ -15,6 +15,8 @@ include "include/logic.php";
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
     <!--Fonts-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -90,14 +92,16 @@ include "include/logic.php";
                     <img src="img/icons/smp2.png" class=" position3">
 
                 </div>
-                <div class="calendar-man">
+
+                
+
+            </div>
+            <div class="calendar-man">
                     <img src="img/calendar-man.png" alt="">
                     <div class="calendar-dots">
                         <img src="img/calendar-dots.png" alt="">
                     </div>
                 </div>
-
-            </div>
         </div>
     </section>
 
@@ -218,11 +222,11 @@ include "include/logic.php";
                         <div class="accordion accordion-flush mt-5" id="accordionFlushExample">
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="flush-headingOne">
-                                    <button class="accordion-button collapsed fw-bold" type="button" data-mdb-toggle="collapse" data-mdb-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                                        What is the Specializations Recommendation System, and how does it make specialization recommendations?
                                     </button>
                                 </h2>
-                                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-mdb-parent="#accordionFlushExample">
+                                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
                                         The Specializations Recommendation System is an online platform designed to help students make informed decisions about their academic specializations and career paths. It assesses your abilities, interests, and career aspirations to recommend the most suitable specialization for you. The system provides three types of recommendations: grade-based, preference-based (OpenAI-based recommendations), and assessment-based (quiz) recommendations.
                                     </div>
@@ -230,11 +234,11 @@ include "include/logic.php";
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="flush-headingTwo">
-                                    <button class="accordion-button collapsed fw-bold" type="button" data-mdb-toggle="collapse" data-mdb-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                                         How does the system use machine learning in the grade-based recommendation?
                                     </button>
                                 </h2>
-                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-mdb-parent="#accordionFlushExample">
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
                                         The grade-based recommendation utilizes machine learning algorithms to analyze your academic performance and predict suitable specializations based on your grades and performance trends. This data-driven approach enhances the accuracy of recommendations.
                                     </div>
@@ -242,11 +246,11 @@ include "include/logic.php";
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="flush-headingThree">
-                                    <button class="accordion-button collapsed fw-bold" type="button" data-mdb-toggle="collapse" data-mdb-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                                         What is the OpenAI-based recommendation, and how does it work?
                                     </button>
                                 </h2>
-                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-mdb-parent="#accordionFlushExample">
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
                                         The OpenAI-based recommendation leverages state-of-the-art artificial intelligence technology to analyze your preferences, interests, and career aspirations. This recommendation method uses natural language processing to understand your input and provide personalized specialization recommendations based on your preferences.
                                     </div>
@@ -254,11 +258,11 @@ include "include/logic.php";
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="flush-headingFour">
-                                    <button class="accordion-button collapsed fw-bold" type="button" data-mdb-toggle="collapse" data-mdb-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
                                        What is the assessment-based (quiz) recommendation, and how does it function?
                                     </button>
                                 </h2>
-                                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-mdb-parent="#accordionFlushExample">
+                                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
                                         The assessment-based recommendation involves a quiz that assesses your abilities and preferences. This quiz helps the system understand your unique strengths and interests, allowing it to make tailored recommendations for your academic specialization.
                                     </div>
@@ -266,11 +270,11 @@ include "include/logic.php";
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="flush-headingFive">
-                                    <button class="accordion-button collapsed fw-bold" type="button" data-mdb-toggle="collapse" data-mdb-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
                                          Are these recommendation methods reliable?
                                     </button>
                                 </h2>
-                                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-mdb-parent="#accordionFlushExample">
+                                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
                                         Yes, the recommendations are designed to be reliable and effective. The grade-based recommendation uses data-driven machine learning, the OpenAI-based recommendation employs advanced language processing, and the assessment-based recommendation is based on a comprehensive quiz. However, individual preferences and career goals can vary, so it's important to consider the recommendations alongside guidance from academic advisors and career counselors.
                                     </div>
@@ -279,41 +283,91 @@ include "include/logic.php";
                         </div>
                     </div>
                 </div>
+            </div>
     </section>
 
-    <!--wHATS NEW CARD-->
-    <div class="container whats-new">
-        <h1 class="text-center my-5 fs-2 fw-bold">What's new?</h1>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card text-center">
-                <img src="img/a1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+<!--wHATS NEW CARD-->
+<div class="container whats-new">
+    <h1 class="text-center my-5 fs-2 fw-bold">What's new?</h1>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card text-center whats-card">
+                <div class="image-wrapper">
+                    <img src="img/whats1.png" class="card-img-top" alt="...">
                 </div>
-              </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card text-center">
-              <img src="https://via.placeholder.com/300" class="card-img-top" alt="Image 2">
-              <div class="card-body">
-                <h5 class="card-title">Card Title 2</h5>
-                <p class="card-text">This is a sample paragraph for Card 2. You can replace this with your own content.</p>
-              </div>
+                <div class="card-body text-start">
+                    <h5 class="card-title">Card title 1</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card text-center">
-              <img src="https://via.placeholder.com/300" class="card-img-top" alt="Image 3">
-              <div class="card-body">
-                <h5 class="card-title">Card Title 3</h5>
-                <p class="card-text">This is a sample paragraph for Card 3. You can replace this with your own content.</p>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
+        <div class="col-md-4">
+            <div class="card text-center">
+                <div class="image-wrapper">
+                    <img src="img/whats2.png" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body text-start">
+                    <h5 class="card-title">Card title 2</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center">
+                <div class="image-wrapper">
+                    <img src="img/whats3.png" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body text-start">
+                    <h5 class="card-title">Card title 3</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
       
+      <!--FOOTER-->
+<nav class="nav navbar navbar-expand-xl bg-light navbar-light">
+    <div class="container footer">
+        <a href="index.html" class="navbar-brand"><img src="img/cmri-logo.png" alt="logo" class="img-fluid"></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a href="" class="nav-link nav-link1">Product</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link nav-link1">Resource</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link nav-link1">Company</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link nav-link1">Pricing</a>
+                </li>
+                
+            </ul>
+
+            <ul class="navbar-nav" id="navmenu2">
+                <li class="nav-item">
+                    <a href="user-login.php" class="nav-link  nav-link1">Sign in</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link btn" id="guess">Sign up</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
 
     <!--FEATURES
     <section class="bg-white text-dark p-5 text-center">
