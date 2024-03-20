@@ -193,10 +193,33 @@
   border-radius: 50%;
 }
 
-.calendar img {
-  width: 450px; /* Adjust the width as needed */
-  height: 250px; /* Maintain aspect ratio */
+/*Calendar img */
+
+.calendar-man {
+  position: relative;
+  display: inline-block;
+  margin-top: 30px;
 }
+
+.calendar-dots {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.calendar-dots img {
+  width: 300px; /* Adjust the width as needed */
+  height: 250px; /* Maintain aspect ratio */
+  margin-right: -500px;
+}
+
+.calendar-man img {
+  width: 400px; /* Adjust the width as needed */
+  height: 250px; /* Maintain aspect ratio */
+  margin-left: -350px;
+}
+
 
 @media (max-width: 768px) {
   .position1,
@@ -297,6 +320,11 @@
   transition: 1s;
 }
 
+@media (max-width: 768px){
+  .btn-button1{
+    padding: 2px 2px;
+  }
+}
 /*Faqs*/
 
 /*FAQS PAGE*/
@@ -366,7 +394,6 @@
   max-width: 100%; /* Ensure the image fits within the card */
       height: auto; /* Maintain aspect ratio */
 }
-
 
 
 
@@ -1176,7 +1203,7 @@ td{
   }
   #aboutimg{
     margin-top: 50px;
-    height: 300px;
+    height: 200px;
     width: 300px;
   }
 
