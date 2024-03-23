@@ -57,7 +57,7 @@
     background: rgb(255,141,93);
 }
 #guess{
-    background-color: #7469B6;
+    background-color: #8659D3;
     border-radius: 10px; 
     padding: 5px 10px;
     color: #ffff;
@@ -65,7 +65,7 @@
 }
 #guess:hover{
     background-color: white;
-    color: #7469B6;
+    color: #8659D3;
 }
 
 /* Home Page Text*/
@@ -123,13 +123,13 @@
     border-radius: 20px; 
     padding: 10px 60px;
     border: 2px solid white;
-    background-color: #7469B6; 
+    background-color: #8659D3; 
     color: white;
     font-weight: 500;
     text-decoration: none;
 }
 .btn-button:hover{
-    color: #7469B6;
+    color: #8659D3;
     background-color: white;
     transition: 1s;
 }
@@ -138,7 +138,7 @@
     border-radius: 20px; 
     padding: 2px 40px;
     border: 2px solid white;
-    background-color: #7469B6; 
+    background-color: #8659D3; 
     color: white;
     font-weight: 500;
     text-decoration: none;
@@ -262,7 +262,7 @@
   background-color: #0DA5A8;
 }
 #card-4{
-  background-color: #7469B6;
+  background-color: #8659D3;
 }
 .cardt1{
   color: #E178C5;
@@ -322,7 +322,7 @@
   font-weight: 700;
 }
 .smarter{
-  color: #7469B6;
+  color: #8659D3;
 }
 .paragraph{
   font-weight: 400;
@@ -330,17 +330,17 @@
   margin-bottom: 30px;
 }
 .btn-button1 {
-  border: 1px solid #7469B6; 
+  border: 1px solid #8659D3; 
   padding: 10px 20px;
   background-color: white; 
-  color: #7469B6;
+  color: #8659D3;
   font-weight: 500;
   text-decoration: none;
   font-size: 10px;
 }
 .btn-button1:hover{
   color: #ffff;
-  background-color: #7469B6;
+  background-color: #8659D3;
   transition: 1s;
 }
 #aboutimg{
@@ -438,6 +438,143 @@
 }
 
 
+/*SignUp*/
+.signup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Lexend", sans-serif;
+  margin: 30px auto 100px auto;
+  position: relative;
+}
+
+.signup-form {
+  width: 100%;
+  padding: 80px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  font-family: "Lexend", sans-serif;
+}
+.signup-form h2{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Lexend", sans-serif;
+}
+.t1{
+  font-size: 15px;
+  font-family: "Lexend", sans-serif;
+}
+.signup-form button{
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  margin: 30px auto;
+  background-color: #8659D3;
+  border: none;
+  font-size: 15px;
+}
+.signup-form button:hover{
+  color: #8659D3;
+  background-color: white;
+  border: none;
+  transition: .3s;
+}
+.form-group input{
+  background-color: #F3F4F6;
+  border: none;
+}
+.signup-form label{
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Lexend", sans-serif;
+  margin-bottom: 5px;
+}
+.form-control::placeholder {
+  color: #999;
+  font-size: 13px;
+  font-weight: 500;
+}
+.or{
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+.google{
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  margin: 30px auto;
+  background-color: #DB4437;
+  border: none;
+  text-decoration: none;
+  color: white;
+  border-radius: 7px;
+  padding: 7px;
+  font-family: "Lexend", sans-serif;
+  font-size: 15px;
+}
+.google:hover{
+  color: #DB4437;
+  background-color: white;
+  border: none;
+  transition: .3s;
+}
+.facebook{
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  margin: 30px auto 50px auto;
+  background-color: #4267B2;
+  border: none;
+  text-decoration: none;
+  color: white;
+  border-radius: 7px;
+  padding: 7px;
+  font-family: "Lexend", sans-serif;
+  font-size: 15px;
+}
+.facebook:hover{
+  color: #4267B2;
+  background-color: white;
+  border: none;
+  transition: .3s;
+}
+
+.signin{
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+}
+.signp{
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+}
+.quote-container {
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.quote {
+  max-width: 400px;
+  font-size: 20px;
+  font-style: italic;
+}
+.quote p{
+  font-family: "Lexend", sans-serif;
+  color: #8659D3;
+  font-weight: bold;
+  font-size: 30px;
+}
+.qoute span{
+  width: 200px;
+}
 
 
 
