@@ -1,4 +1,4 @@
-<?php
+<!--<?php
 
 session_start();
 //error_reporting(0);
@@ -13,7 +13,7 @@ $query = mysqli_query($conn, "SELECT * FROM `students_acc`");
 $admin_query = mysqli_query($conn, "SELECT * FROM `admin_acc` WHERE admin_id = $session_id");
 $fetch = mysqli_fetch_assoc($admin_query);
 
-?>
+?>-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -62,8 +62,8 @@ $fetch = mysqli_fetch_assoc($admin_query);
 
 <body>
 
-  <!-- navigation -->
-  <?php include "navigation.php"; ?>
+  <!-- navigation 
+  <?php include "navigation.php"; ?>-->
   <!-- navigation -->
 
   <main class="mt-5 pt-3">
@@ -310,7 +310,7 @@ $fetch = mysqli_fetch_assoc($admin_query);
                     </tr>
                   </thead>
                   <tbody>
-                    <?php while ($row = mysqli_fetch_assoc($query)) { ?>
+                    <!--<?php while ($row = mysqli_fetch_assoc($query)) { ?>
                       <tr>
                         <td><?php echo $row['school_id'] ?></td>
                         <td><?php echo $row['fullname'] ?></td>
@@ -321,7 +321,7 @@ $fetch = mysqli_fetch_assoc($admin_query);
                           <td>Undecided</td>
                         <?php } ?>
                       </tr>
-                    <?php } ?>
+                    <?php } ?>-->
 
                   </tbody>
 
@@ -340,13 +340,13 @@ $fetch = mysqli_fetch_assoc($admin_query);
   <script src="./js/dataTables.bootstrap5.min.js"></script>
   <script src="./js/script.js"></script>
 
-  <?php
+  <!--<?php
 
   @include "count.php";
 
-  ?>
+  ?>-->
 
-  <script>
+  <!--<script>
     const ctx = document.getElementById('myChartBar');
     new Chart(ctx, {
       type: 'bar',
@@ -465,7 +465,7 @@ $fetch = mysqli_fetch_assoc($admin_query);
         },
       },
     });
-  </script>
+  </script>-->
 
 
 </body>

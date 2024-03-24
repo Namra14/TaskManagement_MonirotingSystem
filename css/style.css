@@ -94,7 +94,12 @@
   #showcase p {
       font-size: 10px; /* Adjust font size as needed */
       color: grey;
-      
+  }
+  #showcase h1{
+    font-size: 30px;
+  }
+  #showcase h2{
+    font-size: 30px;
   }
 }
 .container img{
@@ -177,8 +182,8 @@
 }
 
 .image-container img{
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
 }
 .position1 {
   position: absolute;
@@ -336,7 +341,8 @@
   color: #8659D3;
   font-weight: 500;
   text-decoration: none;
-  font-size: 10px;
+  font-size: 13px;
+  font-weight: 700;
 }
 .btn-button1:hover{
   color: #ffff;
@@ -577,7 +583,17 @@
 }
 
 
-
+@media (max-width: 800px){
+  .signup-container{
+    padding-top: 100px;
+  }
+  .quote-container{
+    padding: 30px 100px;
+  }
+  .quote p{
+    font-size: 20px;
+  }
+}
 
 
 
