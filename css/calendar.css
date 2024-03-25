@@ -27,18 +27,26 @@ body{
     margin-left: 50px;
   }
   .sidebar-links li a {
-    color: black; /* Set default color to white */
-    text-decoration: none; /* Remove text decoration */
+    color: black; 
+    text-decoration: none; 
     display: flex;
     align-items: center;
     border-radius: 10px;
   }
 
   .sidebar-links li a:hover {
-    background-color: #8659D3; /* Add background color when hovering */
-    text-decoration: none; /* Remove text decoration on hover */
+    background-color: #8659D3; 
+    text-decoration: none; 
     color: white;
     transition: 0.3s;
+  }
+  @media screen and (max-width: 768px){
+    .sidebar-links li a{
+      font-size: 15px;
+    }
+    .sidebar{
+      margin-bottom: -100%;
+    }
   }
     .bi-calendar,
     .bi-calendar-check,
@@ -79,17 +87,95 @@ body{
   .nav-icons i {
     margin-right: 15px;
     padding: 0 10px;
+    color: grey;
   }
 
-  .create-btn {
-    background-color: #8659D3;
-    color: #fff;
-    border: none;
-    padding: 8px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
+/*NavProfile in calendar-page*/
+.profile {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer; 
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: auto; 
+  right: 0;
+  z-index: 1000;
+  display: none;
+  min-width: 160px;
+  padding: 5px 0;
+  margin-top: 2px;
+  font-size: 14px;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: .25rem;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: .25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.dropdown-menu a:hover {
+  background-color: #8659D3;
+  color: white;
+}
+
+@media screen and (max-width: 768px){
+  .navbar{
+    margin: 0px 20px;
+  }
+  .navbar-brand{
+    margin-left: -30px;
+  }
+  .create-btn{
+    margin-left: -30px;
+  }
+  .nav-icons{
+    margin-left: -30px;
+  }
+  .profile img{
+    margin-left: -30px;
+  }
+  .calendar-buttons{
+    font-size: 13px;
+  }
+}
+/*Calendar Container*/
+.create-btn {
+  background-color: #8659D3;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
   }
 
   .create-btn i {
@@ -112,8 +198,8 @@ body{
 
   .calendar-nav-text {
     font-weight: bold;
-    margin-right: auto; /* Pushes the arrows to the right */
-    margin-left: 10px; /* Adds space between text and arrows */
+    margin-right: auto; 
+    margin-left: 10px; 
   }
   .calendar-nav-arrows {
     display: flex;
@@ -130,23 +216,25 @@ body{
     display: flex;
   }
 
-  .calendar-buttons button {
+  .calendar-buttons a {
     margin-right: 10px;
     padding: 5px 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    color: #8659D3;
   }
-  .calendar-buttons button:hover {
-    background-color: #8659D3; /* Change background color on hover */
-    color: #fff; /* Change text color on hover */
+  .calendar-buttons a:hover {
+    background-color: #8659D3; 
+    color: #fff; 
     border: none;
     transition: .3s;
+    text-decoration: none;
   }
 
-  .calendar-buttons button.active {
-    background-color: #8659D3; /* Change background color when active */
-    color: #fff; /* Change text color when active */
+  .calendar-buttons a.active {
+    background-color: #8659D3;
+    color: #fff; 
     border: none;
   }
   .calendar-events {
@@ -163,58 +251,99 @@ body{
   .calendar-events ul li {
     margin-bottom: 10px;
   }
-  .profile {
-    display: flex;
-    align-items: center;
-    position: relative; /* Make the dropdown position relative */
+  /*calendar time and event*/
+  .event-table {
+    width: 100%;
+    border-collapse: collapse;
   }
 
-  .profile img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin-right: 10px;
-    cursor: pointer; /* Add pointer cursor to indicate clickable */
+  .event-table th,
+  .event-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
   }
 
-  .dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: auto; /* Adjust to remove default left value */
-    right: 0;
-    z-index: 1000;
-    display: none;
-    min-width: 160px; /* Set the width of the dropdown menu */
-    padding: 5px 0;
-    margin-top: 2px; /* Adjust top margin */
-    font-size: 14px;
-    color: #212529;
-    text-align: left;
-    list-style: none;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid rgba(0,0,0,.15);
-    border-radius: .25rem;
-  }
-
-  .dropdown-menu.show {
-    display: block;
-  }
-
-  .dropdown-menu a {
-    display: block;
-    padding: .25rem 1.5rem;
-    clear: both;
-    font-weight: 400;
-    color: #212529;
-    text-align: inherit;
-    white-space: nowrap;
-    background-color: transparent;
-    border: 0;
-    cursor: pointer;
-  }
-
-  .dropdown-menu a:hover {
+  .event1 {
+    position: relative;
     background-color: #8659D3;
+  }
+  .event2 {
+    position: relative;
+    background-color: #0EA5A8;
+  }
+
+  .event3 {
+    position: relative;
+    background-color: #0EA5A8 ;
+  }
+
+  .event4 {
+    position: relative;
+    background-color: #8659D3;
+  }
+
+
+  .event-title {
+    font-weight: bold;
+    margin-bottom: 5px;
     color: white;
   }
+
+  .event-description {
+    font-style: italic;
+    color: #666;
+    color: white;
+  }
+
+  /*month view css*/
+  .calendar-container {
+    margin-top: 20px;
+  }
+  
+  .calendar-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .calendar-table th,
+  .calendar-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .calendar-table th {
+    background-color: #f0f0f0;
+  }
+  
+  .calendar-table td {
+    background-color: #fff;
+  }
+  
+  .calendar-table tbody td:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .calendar-table td:first-child {
+    background-color: transparent;
+  }
+  
+  /* Adjust styles for specific days, e.g., weekends */
+  .calendar-table td:nth-child(1),
+  .calendar-table td:nth-child(7) {
+    background-color: #f9f9f9;
+  }
+  
+  .event {
+    display: block;
+    font-size: 14px;
+  }
+  
+  .event i {
+    color: #FFD700; /* Change the color as needed */
+  }
+  
+
+
+
